@@ -1,4 +1,4 @@
-module github.com/rody/diff-review
+module github.com/lmondigo/diff-review
 
 go 1.22.3
 
