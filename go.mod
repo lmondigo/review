@@ -1,4 +1,4 @@
-module github.com/lmondigo/diff-review
+module github.com/lmondigo/review
 
 go 1.22.3
 
