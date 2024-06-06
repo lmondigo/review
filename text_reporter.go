@@ -30,8 +30,8 @@ func (tr textReporter) report(violations []violation) error {
 		t.AppendRow([]interface{}{
 			v.filename,
 			v.line,
-			v.rule,
 			v.severity,
+			v.rule,
 			v.message})
 	}
 	t.Render()
